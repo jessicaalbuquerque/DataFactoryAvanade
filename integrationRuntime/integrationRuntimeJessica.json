@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntimeJessica",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
