@@ -1,0 +1,12 @@
+{
+	"name": "AzureMySqlTable3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureMySqlJessica",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureMySqlTable",
+		"schema": []
+	}
+}
