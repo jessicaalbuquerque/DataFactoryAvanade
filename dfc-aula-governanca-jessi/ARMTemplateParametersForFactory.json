@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfc-aula-governanca-jessi"
+		},
+		"AzureDataLakeStorageJessica_accountKey": {
+			"value": ""
+		},
+		"AzureMySqlJessica_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorageJessica_properties_typeProperties_url": {
+			"value": "https://aulajessi.dfs.core.windows.net"
+		}
+	}
+}
