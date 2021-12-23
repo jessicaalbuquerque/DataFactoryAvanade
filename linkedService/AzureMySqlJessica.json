@@ -1,0 +1,16 @@
+{
+	"name": "AzureMySqlJessica",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureMySql",
+		"typeProperties": {
+			"connectionString": "server=aulajessica3.mysql.database.azure.com;port=3306;database=sakila;uid=jessica@aulajessica3;sslmode=1;usesystemtruststore=0",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkNjg4YmQ1My0yMmI4LTQ4NGItYTJlZi1jNTlmYTgyNTNhMWMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeJessica",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
